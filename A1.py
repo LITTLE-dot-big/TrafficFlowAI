@@ -5,7 +5,7 @@ from sort import *
 import numpy as np
 
 cap = cv.VideoCapture('videos/testVideo.mp4')   # loading the video stream
-mask = cv.imread('videos/mask.png')     # loading the mask for detection in the particular region
+mask = cv.imread('mask.png')     # loading the mask for detection in the particular region
 track = Sort(max_age=15, min_hits=3, iou_threshold=0.3)     # a program for tracking the detected vechiles
 limits = [0, 300, 800, 300]
 cntBus = []
