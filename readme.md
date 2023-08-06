@@ -10,9 +10,8 @@ strategies. <br>
 
 ## Setup
 
-1. Download the webdriver for your browser of choice.
-2. Setup a virtual environment.
-3. Run the following command:
+1. Setup a virtual environment.
+2. Run the following command:
    ```bash
    pip install -r requirements.txt 
    ```
